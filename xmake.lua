@@ -19,6 +19,7 @@ add_headerfiles("include/(rtsyn/**.h)")
 
 local rtsyn_modules = {
 	{ path = "port", name = "port" },
+	{ path = "port/value/str", name = "str" },
 }
 
 for _, rtsyn_module in ipairs(rtsyn_modules) do
